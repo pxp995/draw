@@ -1,0 +1,42 @@
+/*页面公共属性设置*/
+*{padding:0;margin:0;list-style:none;}
+
+body{ background:#c9d3e2;}
+/*页面顶部属性设置*/
+#header{ width:900px; height:90px; font-size:40px; margin:0 auto; text-align:center; line-height:100px;}
+/*页面中间部分(画图板)属性*/
+#content{width:880px;height:550px;background:#ced8e7;margin:0 auto;padding:10px}
+#tool{height:150px;text-align:center}
+#tool li{ float:left; width:175px; text-align:center; height:140px; border-right:1px solid #eeeeee; background:#dce6f4;}
+#image{text-align:left;padding:20px}
+#image li{height:30px;width:100px;list-style:none;border:0}
+#image li button{width:100px;height:22px;position:relative;left:15px;cursor:pointer}
+
+#means,#shape{padding:20px}
+#means li{cursor:pointer}
+#means li,#shape li{height:30px;width:40px;border:1px solid #000;margin-bottom:10px}
+#means li:hover,#shape li:hover{height:30px;width:40px;border:1px solid #fff;margin-bottom:10px}
+#means img,#shape img{height:25px;width:25px}
+
+#shape li{cursor:pointer}
+
+#size{padding:10px}
+#size li{height:20px;width:120px;border:1px solid #ccc;cursor:pointer}
+#size li:hover{height:20px;width:120px;border:1px solid #FFF}
+
+#color{padding:20px}
+#color li{width:20px;height:20px;border:1px solid #000;margin-bottom:10px;margin-right:3px;cursor:pointer}
+#color li:hover{width:20px;height:20px;border:1px solid #fff;margin-bottom:10px;margin-right:3px}
+#color #red{background:red}
+#color #green{background:green}
+#color #blue{background:blue}
+#color #yellow{background:yellow}
+#color #white{background:white}
+#color #black{background:black}
+#color #pink{background:pink}
+#color #purple{background:purple}
+#color #cyan{background:cyan}
+#color #orange{background:orange}
+
+#canvas{background:white}
+#canvas:hover{cursor:crosshair}
